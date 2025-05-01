@@ -46,7 +46,7 @@ Zellij version `v0.38.0` or later.
 
 The plugin will look for a `/host/.zellij-workspace` file (i.e. at the root of the dir of you current zellij session) to load a list of zellij layouts (relative path from your zellij session `cwd`).
 
-Example of a `.ghost` file:
+Example of a `.zellij-workspace` file:
 ```bash
 .config/zellij/layouts/my_custom_layout.kdl
 ## this is a comment starting with '#'
